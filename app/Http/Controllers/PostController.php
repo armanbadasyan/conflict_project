@@ -10,4 +10,8 @@ class PostController extends Controller
     {
         return response()->json('hello');
     }
+    public function show()
+    {
+        return response()->json('welcome');
+    }
 }
